@@ -1,0 +1,8 @@
+Study,Method,Dataset,N,SBP R²,RMSE (mmHg),Explainability,App Deployed
+Chen & Liu [2],LSTM/DNN,EHR,"~2,400",0.18,16.1,No,No
+Kumar et al. [3],XGBoost+SHAP,NHANES,"~3,800",0.21,15.3,SHAP,No
+Wang et al. [8],Random Forest,Survey,"~5,000",N/A (classif.),N/A,No,No
+Guo et al. [11],Ensemble,NHANES,"~6,100",~0.29,~14.0,No,No
+Hrytsenko et al. [4],Nonlinear Reg.,Genomics+Clin.,"~1,200",0.42*,11.2*,No,No
+Shrivastava & Singh [15],Multi-output Reg.,Clinical,~900,0.19,16.8,No,No
+Proposed,XGBoost+SHAP,NHANES 2021–22,"4,518",0.235,14.45,SHAP,Yes
